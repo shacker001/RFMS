@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+body, html{
+    background-color: green;
+}
+
+.text-center-lead{
+    font-size: 30px;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 30%;
+    border-bottom: 2px solid;
+}
+
+fieldset {
+    background-color: rgb(121, 129, 123);
+    height: 25%;
+    padding: 0;
+}
+
+.loader{
+    text-align: center;
+    font-size: 35px;
+    border-bottom: 2px solid;
+    width: 100%;
+    border-bottom: solid 5px;
+}
+.card>img{
+    display: block;
+    width: 90%;
+    height: 40%;
+    margin: 0px;
+}
+.card::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.image_card{
+    display: inline;
+    padding: 20px;
+    float: left;
+    width: 20%;
+    height: 10%;
+    border-radius: 50px;
+    margin: 3px;
+}
+.image{
+    width: 320px;
+}
+.loop{
+    background-color: darkgray;
+    text-align: center;
+}
+.form{
+    text-align: left;
+    font-size: 20px;
+    background-color: rgb(142, 163, 162);
+    width: 35%;
+    padding: 5%;
+    margin: 0 auto;
+    border-radius: 20px;
+    border-bottom: 3px solid;
+}
+
+.container {
+    background-color: rgb(153, 145, 145);
+    padding: 10px;
+    margin: 10px;
+}
+.container .content-header {
+    margin-right: 0;
+    width: 100%;
+    text-align: center;
+}
+.container .content-header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+.container .content-header ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.container .content-header ul li a:hover{
+    color: #040e14;
+}
+
+
+.content-footer{
+    margin-top: 10%;
+}
+.container-footer{
+    background-color: gray;
+    padding: 30px;
+    margin-top: 200px;
+}
+.container-footer .content-footer {
+    margin-right: 0; /* Remove the right margin */
+    width: 100%; /* Set width to 100% */
+    text-align: center; /* Align items center */
+}
+.container-footer .content-footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+.container-footer .content-footer ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.container-footer .content-footer ul li a:hover{
+    color: #040e14;
+}

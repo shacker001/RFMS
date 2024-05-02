@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+.fieldset-content{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(159, 175, 159);
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+}
+.fieldset-content h1 {
+    font-size: 35px;
+    border-bottom: 2px solid;
+    width: fit-content;
+    border-radius: 5px;
+    margin-left: 45%;
+}
+.font{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 27px;
+}
+.container {
+    background-color: dimgrey;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container .content-header {
+    margin-right: 0; /* Remove the right margin */
+    width: 100%; /* Set width to 100% */
+    text-align: center; /* Align items center */
+}
+.container .content-header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+.container .content-header ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.container .content-header ul li a:hover{
+    color: #3498db;
+}

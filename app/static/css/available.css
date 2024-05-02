@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+body, html{
+    background-color: green;
+}
+.header {
+    border-bottom: 2px solid;
+    margin-left: 15%;
+    width: fit-content;
+    border-radius: 35px;
+}
+p {
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.image{
+    width: 320px;
+}
+.back {
+    background-color: darkolivegreen;
+    text-align: left;
+    width: fit-content;
+    padding: 0;
+    border-radius: 10px;
+    position: fixed;
+}
+.back > a {
+    text-decoration: none;
+}
+fieldset{
+    background-color: grey;
+    height: auto;
+    padding: 0%;
+}
+.image-content {
+    font-size: 35px;
+    padding: 0;
+}
+.card > img {
+    display: block;
+    width: 100%;
+    height: 50%;
+    margin: 0px;
+}
+.card::after{
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+.image_card{
+    display: inline-flex;
+    padding: 20px;
+    float: left;
+    width: 25%;
+    height: auto;
+    border-radius: 50px;
+}
+fieldset > p {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 35px;
+    background-color: aliceblue;
+    border-radius: 35px;
+}
+.updates h2 {
+    background-color: rgba(0, 255, 34, 0.753);
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(153, 145, 145);
+    padding: 10px;
+    margin: 10px;
+}
+
+.container .content-header {
+    margin-right: 0; /* Remove the right margin */
+    width: 100%; /* Set width to 100% */
+    text-align: center; /* Align items center */
+}
+.container .content-header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+.container .content-header ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.container .content-header ul li a:hover{
+    color: #040e14;
+}
+
+
+.content-footer{
+    margin-top: 10%;
+}
+.container-footer{
+    background-color: gray;
+    padding: 30px;
+    margin-top: 200px;
+}
+.container-footer .content-footer {
+    margin-right: 0;
+    width: 100%;
+    text-align: center;
+}
+.container-footer .content-footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+.container-footer .content-footer ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.container-footer .content-footer ul li a:hover{
+    color: #040e14;
+}

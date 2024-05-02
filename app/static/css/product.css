@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+body, html{
+    background-color: green;
+}
+.upload {
+    text-align: center;
+}
+
+form {
+    text-align: left;
+    font-size: 20px;
+    background-color: chartreuse;
+    width: 50%;
+    height: 60%;
+    padding-left: 14%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0 auto;
+    border-radius: 30%;
+}
+button {
+    border-radius: 15px;
+    background-color: aqua;
+    margin-left: 20%;
+    width: 50px;
+}
+.container {
+    background-color: rgb(153, 145, 145);
+    padding: 10px;
+    margin: 10px;
+}
+
+.container .content-header {
+    margin-right: 0; /* Remove the right margin */
+    width: 100%; /* Set width to 100% */
+    text-align: center; /* Align items center */
+}
+.container .content-header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+.container .content-header ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.container .content-header ul li a:hover{
+    color: #040e14;
+}
+
+.content-footer{
+    margin-top: 10%;
+}
+.container-footer{
+    background-color: gray;
+    padding: 30px;
+    margin-top: 200px;
+}
+.container-footer .content-footer {
+    margin-right: 0; /* Remove the right margin */
+    width: 100%; /* Set width to 100% */
+    text-align: center; /* Align items center */
+}
+.container-footer .content-footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+.container-footer .content-footer ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.container-footer .content-footer ul li a:hover{
+    color: #040e14;
+}

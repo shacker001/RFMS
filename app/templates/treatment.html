@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/treatment.css' %}">
+    <title>treatment</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="content-header">
+            <ul>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'plant' %}">Farms & Plants Growth</a></li>
+                <li><a href="{% url 'treatment' %}">Treatments</a></li>
+                <li><a href="{% url 'medicine' %}">Medicines</a></li>
+                <li><a href="{% url 'available' %}">Items On Sale</a></li>
+                <li><a href="{% url 'aboutUs' %}">About Us</a></li>
+                <li><a href="{% url 'contactUs' %}">Contact Us</a></li>       
+            </ul>
+        </div>
+    </div>
+    <h1><b>The Treatment Platform. Feel free to share the health status of your plants!</b></h1>
+    <form action="" method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button>Submit</button>
+    </form>
+
+    <div class="container-footer">
+        <div class="content-footer">
+            <ul>
+                <li><a href="{% url 'privacy' %}">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="{% url 'faqs' %}">FAQs</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

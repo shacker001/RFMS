@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    background-color: green;
+}
+fieldset{
+    background-color: grey;
+    height: auto;
+    padding: 0%;
+}
+.image-content {
+    font-size: 35px;
+    padding: 0;
+}
+.card > img {
+    display: block;
+    width: 100%;
+    height: 50%;
+    margin: 0px;
+}
+.card::after{
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+.image_card{
+    display: inline-flex;
+    padding: 20px;
+    float: left;
+    width: 25%;
+    height: auto;
+    border-radius: 50px;
+    margin: 2px;
+}
+fieldset > p {
+    text-align: center;
+    font-size: 35px;
+    background-color: aliceblue;
+    /* width: fit-content; */
+    border-radius: 35px;
+}
+
+
+.image{
+    width: 320px;
+}
+
+.form{
+    text-align: left;
+    background-color: darkgray;
+    /* text-align: center; */
+}
+.container {
+    background-color: dimgrey;
+    padding: 10px;
+    margin: 10px;
+}
+.container .content-header {
+    margin-right: 0; /* Remove the right margin */
+    width: 100%; /* Set width to 100% */
+    text-align: center; /* Align items center */
+}
+.container .content-header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+.container .content-header ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.container .content-header ul li a:hover{
+    color: #040e14;
+}
